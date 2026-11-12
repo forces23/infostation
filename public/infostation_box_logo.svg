@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="27 19 74 82" fill="none">
+  <g stroke="#A14BFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- top face -->
+    <path d="M32 40 L64 24 L96 40 L64 56 Z"/>
+    <!-- left face -->
+    <path d="M32 40 L32 80 L64 96 L64 56 Z"/>
+    <!-- right face -->
+    <path d="M96 40 L96 80 L64 96 L64 56 Z"/>
+    <!-- vertical back corner -->
+    <path d="M64 24 L64 56"/>
+  </g>
+</svg>

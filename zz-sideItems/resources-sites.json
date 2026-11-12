@@ -1,0 +1,37 @@
+{
+    "sites": [
+        {
+            "name": "Next.js",
+            "url": "https://nextjs.org/docs",
+            "image": "https://nextjs.org/static/favicon/favicon-32x32.png"
+        },
+        {
+            "name": "ShadCN/UI",
+            "url": "https://ui.shadcn.com/docs"
+        },
+        {
+            "name": "TailwindCSS",
+            "url": "https://tailwindcss.com/docs"
+        },
+        {
+            "name": "Quill",
+            "url": "https://quilljs.com/docs/quickstart"
+        },
+        {
+            "name": "W3Schools",
+            "url": "https://www.w3schools.com/"
+        },
+        {
+            "name": "MDN Web Docs",
+            "url": "https://developer.mozilla.org/en-US/docs"
+        },
+        {
+            "name": "React Icons",
+            "url": "https://react-icons.github.io/react-icons/"
+        },
+        {
+            "name": "Google Fonts",
+            "url": "https://fonts.google.com/"
+        }
+    ]
+}
