@@ -1,0 +1,374 @@
+{
+    "schemaVersion": 1,
+    "iconStrategy": {
+        "default": "favicon-from-url",
+        "overrideField": "iconUrl"
+    },
+    "categories": [
+        {
+            "id": "docs",
+            "name": "Docs",
+            "sortOrder": 1
+        },
+        {
+            "id": "tools",
+            "name": "Tools",
+            "sortOrder": 2
+        },
+        {
+            "id": "cheatsheets",
+            "name": "Cheatsheets",
+            "sortOrder": 3
+        },
+        {
+            "id": "guides",
+            "name": "Guides",
+            "sortOrder": 4
+        },
+        {
+            "id": "books",
+            "name": "Books",
+            "sortOrder": 5
+        }
+    ],
+    "resources": [
+        {
+            "id": "resource_aws_docs",
+            "slug": "aws-documentation",
+            "name": "AWS Documentation",
+            "url": "https://docs.aws.amazon.com/",
+            "domain": "docs.aws.amazon.com",
+            "iconName": "aws",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original.svg",
+            "categoryId": "docs",
+            "notes": "Official AWS product documentation, user guides, API references, and architecture resources.",
+            "tags": [
+                "aws",
+                "cloud",
+                "architecture"
+            ],
+            "isFeatured": true,
+            "isFavorite": true,
+            "status": "active",
+            "dateAdded": "2026-11-09T14:30:00.000Z",
+            "dateUpdated": "2026-11-13T14:00:00.000Z"
+        },
+        {
+            "id": "resource_react_docs",
+            "slug": "react-docs",
+            "name": "React Docs",
+            "url": "https://react.dev/",
+            "domain": "react.dev",
+            "iconName": "react",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            "categoryId": "docs",
+            "notes": "Components, hooks, API references, and modern React patterns.",
+            "tags": [
+                "react",
+                "javascript",
+                "typescript",
+                "frontend",
+                "library"
+            ],
+            "isFeatured": true,
+            "isFavorite": true,
+            "status": "active",
+            "dateAdded": "2026-11-08T18:15:00.000Z",
+            "dateUpdated": "2026-11-13T14:00:00.000Z"
+        },
+        {
+            "id": "resource_python_docs",
+            "slug": "python-docs",
+            "name": "Python Docs",
+            "url": "https://docs.python.org/3/",
+            "domain": "docs.python.org",
+            "iconName": "python",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+            "categoryId": "docs",
+            "notes": "Python language reference, standard library, tutorials, and best practices.",
+            "tags": [
+                "python",
+                "backend",
+                "language"
+            ],
+            "isFeatured": true,
+            "isFavorite": false,
+            "status": "active",
+            "dateAdded": "2026-11-08T16:45:00.000Z",
+            "dateUpdated": "2026-11-13T14:00:00.000Z"
+        },
+        {
+            "id": "resource_github",
+            "slug": "github",
+            "name": "GitHub",
+            "url": "https://github.com/",
+            "domain": "github.com",
+            "iconName": "github",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+            "categoryId": "tools",
+            "notes": "Repositories, source control, pull requests, issues, and team collaboration.",
+            "tags": [
+                "git",
+                "source-control",
+                "collaboration",
+                "devops",
+                "ci-cd"
+            ],
+            "isFeatured": false,
+            "isFavorite": true,
+            "status": "active",
+            "dateAdded": "2026-11-09T15:00:00.000Z",
+            "dateUpdated": "2026-11-09T15:00:00.000Z"
+        },
+        {
+            "id": "resource_mdn_web_docs",
+            "slug": "mdn-web-docs",
+            "name": "MDN Web Docs",
+            "url": "https://developer.mozilla.org/en-US/docs",
+            "domain": "developer.mozilla.org",
+            "iconName": "html5",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+            "categoryId": "docs",
+            "notes": "Web standards and references for HTML, CSS, JavaScript, and browser APIs.",
+            "tags": [
+                "html",
+                "css",
+                "javascript",
+                "web-apis"
+            ],
+            "isFeatured": false,
+            "isFavorite": false,
+            "status": "active",
+            "dateAdded": "2026-11-07T17:30:00.000Z",
+            "dateUpdated": "2026-11-11T13:20:00.000Z"
+        },
+        {
+            "id": "resource_docker_docs",
+            "slug": "docker-docs",
+            "name": "Docker Docs",
+            "url": "https://docs.docker.com/",
+            "domain": "docs.docker.com",
+            "iconName": "docker",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+            "categoryId": "docs",
+            "notes": "Containerization, Dockerfiles, Compose, deployment, CLI, and API documentation.",
+            "tags": [
+                "docker",
+                "containers",
+                "devops"
+            ],
+            "isFeatured": false,
+            "isFavorite": false,
+            "status": "active",
+            "dateAdded": "2026-11-06T14:10:00.000Z",
+            "dateUpdated": "2026-11-10T19:40:00.000Z"
+        },
+        {
+            "id": "resource_shadcn_ui",
+            "slug": "shadcn-ui",
+            "name": "ShadCN/UI",
+            "url": "https://ui.shadcn.com/docs",
+            "domain": "ui.shadcn.com",
+            "iconName": "react",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            "categoryId": "tools",
+            "notes": "Modern, reusable, and accessible UI components for React applications.",
+            "tags": [
+                "react",
+                "components",
+                "tailwind",
+                "ui"
+            ],
+            "isFeatured": false,
+            "isFavorite": false,
+            "status": "active",
+            "dateAdded": "2026-11-04T16:00:00.000Z",
+            "dateUpdated": "2026-11-12T21:15:00.000Z"
+        },
+        {
+            "id": "resource_nextjs_docs",
+            "slug": "nextjs-docs",
+            "name": "Next.js Docs",
+            "url": "https://nextjs.org/docs",
+            "domain": "nextjs.org",
+            "iconName": "nextjs",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+            "categoryId": "docs",
+            "notes": "Framework documentation for routing, rendering, data fetching, deployment, and APIs.",
+            "tags": [
+                "nextjs",
+                "react",
+                "typescript",
+                "frontend"
+            ],
+            "isFeatured": false,
+            "isFavorite": true,
+            "status": "active",
+            "dateAdded": "2026-11-03T13:45:00.000Z",
+            "dateUpdated": "2026-11-13T13:30:00.000Z"
+        },
+        {
+            "id": "resource_tailwind_css",
+            "slug": "tailwind-css-docs",
+            "name": "Tailwind CSS Docs",
+            "url": "https://tailwindcss.com/docs",
+            "domain": "tailwindcss.com",
+            "iconName": "tailwindcss",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+            "categoryId": "docs",
+            "notes": "Utility classes, responsive design, theming, customization, and framework guides.",
+            "tags": [
+                "tailwind",
+                "css",
+                "design-system"
+            ],
+            "isFeatured": false,
+            "isFavorite": true,
+            "status": "active",
+            "dateAdded": "2026-11-02T19:20:00.000Z",
+            "dateUpdated": "2026-11-12T15:10:00.000Z"
+        },
+        {
+            "id": "resource_quill",
+            "slug": "quill-docs",
+            "name": "Quill Docs",
+            "url": "https://quilljs.com/docs/quickstart",
+            "domain": "quilljs.com",
+            "iconName": "javascript",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            "categoryId": "docs",
+            "notes": "Quick-start guides and API documentation for the Quill rich-text editor.",
+            "tags": [
+                "editor",
+                "javascript",
+                "rich-text",
+                "library"
+            ],
+            "isFeatured": false,
+            "isFavorite": false,
+            "status": "active",
+            "dateAdded": "2026-11-01T21:05:00.000Z",
+            "dateUpdated": "2026-11-01T21:05:00.000Z"
+        },
+        {
+            "id": "resource_w3schools",
+            "slug": "w3schools",
+            "name": "W3Schools",
+            "url": "https://www.w3schools.com/",
+            "domain": "www.w3schools.com",
+            "iconName": "html5",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+            "categoryId": "guides",
+            "notes": "Tutorials and examples for web development languages and technologies.",
+            "tags": [
+                "tutorials",
+                "html",
+                "css",
+                "javascript",
+                "web-development",
+                "python",
+                "sql",
+                "php",
+                "java",
+                "c",
+                "c++",
+                "c#",
+                "aws",
+                "bootstrap",
+                "react",
+                "mysql",
+                "nodejs",
+                "mongodb",
+                "django",
+                "typescript",
+                "angular",
+                "jquery",
+                "xml",
+                "numpy",
+                "pandas",
+                "dsa",
+                "postgresql",
+                "asp",
+                "ai",
+                "r",
+                "go",
+                "kotlin",
+                "gen-ai",
+                "scipy",
+                "cybersecurity",
+                "bash",
+                "rust"
+            ],
+            "isFeatured": false,
+            "isFavorite": false,
+            "status": "active",
+            "dateAdded": "2026-10-30T18:35:00.000Z",
+            "dateUpdated": "2026-11-08T12:00:00.000Z"
+        },
+        {
+            "id": "resource_react_icons",
+            "slug": "react-icons",
+            "name": "React Icons",
+            "url": "https://react-icons.github.io/react-icons/",
+            "domain": "react-icons.github.io",
+            "iconName": "react",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            "categoryId": "tools",
+            "notes": "Searchable icon packs exposed through a consistent React component API.",
+            "tags": [
+                "react",
+                "icons",
+                "components",
+                "frontend"
+            ],
+            "isFeatured": false,
+            "isFavorite": false,
+            "status": "active",
+            "dateAdded": "2026-10-29T22:10:00.000Z",
+            "dateUpdated": "2026-10-29T22:10:00.000Z"
+        },
+        {
+            "id": "resource_google_fonts",
+            "slug": "google-fonts",
+            "name": "Google Fonts",
+            "url": "https://fonts.google.com/",
+            "domain": "fonts.google.com",
+            "iconName": "google",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg",
+            "categoryId": "tools",
+            "notes": "Browse, compare, and integrate open-source typefaces for web projects.",
+            "tags": [
+                "fonts",
+                "typography",
+                "design",
+                "frontend"
+            ],
+            "isFeatured": false,
+            "isFavorite": true,
+            "status": "active",
+            "dateAdded": "2026-10-28T16:50:00.000Z",
+            "dateUpdated": "2026-11-09T18:20:00.000Z"
+        },
+        {
+            "id": "resource_eloquent_javascript",
+            "slug": "eloquent-javascript",
+            "name": "Eloquent JavaScript",
+            "url": "https://eloquentjavascript.net/",
+            "domain": "eloquentjavascript.net",
+            "iconName": "javascript",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            "categoryId": "books",
+            "notes": "A free online book covering JavaScript, browser programming, and Node.js.",
+            "tags": [
+                "javascript",
+                "book",
+                "programming"
+            ],
+            "isFeatured": false,
+            "isFavorite": false,
+            "status": "active",
+            "dateAdded": "2026-10-26T19:00:00.000Z",
+            "dateUpdated": "2026-10-26T19:00:00.000Z"
+        }
+    ]
+}

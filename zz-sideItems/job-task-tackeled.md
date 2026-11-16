@@ -21,7 +21,7 @@
   * Angular
   * Typescript
   * Liquibase
-  * Quill
+  * Quill lib
   * Claude
   * NodeJS
   * USWDS - gov styles

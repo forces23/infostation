@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Kode_Mono } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 const kodeMono = Kode_Mono({
   variable: "--font-kode-mono",
@@ -19,10 +20,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${kodeMono.variable} font-kode h-full antialiased`}
     >
-      <body className="min-h-full flex">
+      <body className="flex h-full overflow-hidden">
         <Nav />
-        <div className="main-content flex flex-col grow">
+        <div className="flex h-full min-w-0 overflow-y-auto flex-col grow">
           {children}
+          <Footer/>
         </div>
       </body>
     </html>

@@ -1,0 +1,76 @@
+.game-controller-icon {
+  display: block;
+}
+
+.game-controller-icon:hover .game-controller-blue,
+.group:hover .game-controller-blue {
+  animation: blue-light 2s infinite;
+}
+
+.game-controller-icon:hover .game-controller-red,
+.group:hover .game-controller-red {
+  animation: red-light 2s infinite;
+}
+
+.game-controller-icon:hover .game-controller-yellow,
+.group:hover .game-controller-yellow {
+  animation: yellow-light 2s infinite;
+}
+
+.game-controller-icon:hover .game-controller-green,
+.group:hover .game-controller-green {
+  animation: green-light 2s infinite;
+}
+
+@keyframes blue-light {
+  0%,
+  20% {
+    fill: #3b82f6;
+  }
+
+  25%,
+  100% {
+    fill: var(--dark-purple);
+  }
+}
+
+@keyframes red-light {
+  0%,
+  24%,
+  50%,
+  100% {
+    fill: var(--dark-purple);
+  }
+
+  25%,
+  45% {
+    fill: #ef4444;
+  }
+}
+
+@keyframes yellow-light {
+  0%,
+  49%,
+  75%,
+  100% {
+    fill: var(--dark-purple);
+  }
+
+  50%,
+  70% {
+    fill: #facc15;
+  }
+}
+
+@keyframes green-light {
+  0%,
+  74%,
+  100% {
+    fill: var(--dark-purple);
+  }
+
+  75%,
+  95% {
+    fill: #22c55e;
+  }
+}
